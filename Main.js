@@ -10,7 +10,7 @@ var time = 0;
 function setup() {  
   createCanvas(800, 800);
   
-  path = "assets/T.webm";
+  path = "https://editor.p5js.org/FreshTomato/sketches/U6yC5QZR1/assets/T.webm";
   video = new VideoArea(path, offset);
   //Objects.push(video);
   if(video.objects.length != 0) { 
