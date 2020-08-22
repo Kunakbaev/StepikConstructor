@@ -4,18 +4,46 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/firebase@6.1.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <meta name="google-signin-client_id" content="560146977.1587215430.apps.googleusercontent.com">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <div id="video"></div>
+    
     <meta charset="utf-8" />
+    <body>
+      <script src="Main.js"></script>
+    </body>
   </head>
   <body>
-    <script src="Main.js"></script>
     <script src="VideoAreaClass.js"></script>
     <script src="ButtonClass.js"></script>
     <script src="Panel.js"></script>
-    <script src="DatabaseClass.js"></script>
+    <script src="InterfaceDatabaseClass.js"></script>
+    <script src="UserClass.js"></script>
+    <script src="UsersDatabaseClass.js"></script>
+    <script src="MainPage.js"></script>
+    <script src="LessonClass.js"></script>
+    <script src="PageClass.js"></script>
   </body>
 </html>
+<!--<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <meta name="google-signin-client_id" content="22928977859-jbh641tuk8dcf2cj02gnmb3m5sbjck0p.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script>
+      gapi.load('auth2', function() {
+        gapi.auth2.init();
+        gapi.auth2.getAuthInstance().signIn()
+        console.log(gapi.auth2);
+      });
+      
+    </script>
+  </head>
+  <body>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  </body>
+</html>-->
 
